@@ -13,13 +13,13 @@ main:
 	
 	# --- PROCESSAMENTO ---
 	slt $10, $8, $9 # Verifica se $8 < $9. 
-	beq $10, $0, maior # Verifica se $10 é igual a $0 (0=0). Se sim, então $8 > $9.
+	beq $10, $0, OptionMaior1 # Verifica se $10 é igual a $0 (0=0). Se sim, então $8 > $9.
 	
-menor:
+OptionMaior2:
 	add $4, $0, $9 # Se $8 não for maior do que $9, ele imprimirá $9
 	j print
 	
-maior: 
+OptionMaior1: 
 	add $4, $0, $8 # Se $8 for maior do que $9, ele imprimirá $8
 	
 	# --- SAÍDA DE DADOS ---
