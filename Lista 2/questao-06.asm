@@ -35,7 +35,7 @@ main:
 	beq $14, $15, Pode_aposentar # Se ambos resultados forem igual a zero, o trabalhador pode se aposentar
 	
 	# --- SAÍDA DE DADOS ---
-Não_pode_aposentar:
+Nao_pode_aposentar:
 	addi $4, $0, 'N'
 	addi $2, $0, 11 # Imprime o N, pois o trabalhador não está apto a se aposentar ainda
 	syscall
