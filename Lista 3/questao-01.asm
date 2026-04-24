@@ -1,5 +1,4 @@
-# Faça um programa que calcule e mostre os 10 primeiros números múltiplos de 3,
-# considerando valores maiores que 0
+# Faça um programa que calcule e mostre os 10 primeiros números múltiplos de 3, considerando valores maiores que 0.
 
 .text
 main:
