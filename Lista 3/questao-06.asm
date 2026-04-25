@@ -7,9 +7,8 @@ main:
 	addi $8, $0, 0 # Registrador de soma
 	addi $9, $0, 0 # Referência 0
 	
-	
-teste:
 	# --- INÍCIO DO LAÇO ---
+teste:
 	addi $2, $0, 5 # Ler um número inteiro
 	syscall
 	add $10, $0, $2 # Armazena o número inteiro no registrador 10
