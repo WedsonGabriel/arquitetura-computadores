@@ -12,7 +12,7 @@ teste:
 	add $4, $0, $8
 	addi $2, $0, 1 # Imprime um multiplo de 3
 	syscall
-	add $4, $0, '\n'
+	addi $4, $0, '\n'
 	addi $2, $0, 11 # Imprime uma quebra de linha
 	syscall
 	slt $11, $9, $10 # Se i < 10 retorne 1. Senão, retorne 0.
