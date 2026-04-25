@@ -10,9 +10,9 @@ As listas propostas pelo Prof. Eduardo Wanderley abrangem desde operações bás
 | :--- | :--- | :--- |
 | 🟩 **Lista 01** | Concluído | **Operadores, entrada e saída** |
 | 🟩 **Lista 02** | Em andamento | **Estruturas de Decisão** |
-| 🟦 **Lista 03** | Não Iniciado | **Laços** |
-| 🟪 **Lista 04** | Não Iniciado | **Modularização** |
-| 🟪 **Lista 05** | Não Iniciado | **Vetores** |
+| 🟨 **Lista 03** | Não Iniciado | **Laços** |
+| 🟥 **Lista 04** | Não Iniciado | **Modularização** |
+| 🟥 **Lista 05** | Não Iniciado | **Vetores** |
 
 ---
 
